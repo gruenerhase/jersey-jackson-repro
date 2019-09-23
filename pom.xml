@@ -11,13 +11,13 @@
 
    <properties>
       <!-- JSON parsing test works with jersey 2.25. -->
+<!--
       <jersey.version>2.25</jersey.version>
       <jersey.spring.artifactId>jersey-spring3</jersey.spring.artifactId>
+-->
       <!-- Upgrading to jersey 2.26 (or newer) will cause test to fail. -->
-<!--
       <jersey.version>2.26</jersey.version>
       <jersey.spring.artifactId>jersey-spring4</jersey.spring.artifactId>
--->
 
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
